@@ -1,6 +1,5 @@
 <?php
 session_start();
-    include 'conexion.php';
     $usuario = $_SESSION["usuario"];
     if (!isset($usuario)) {
         header("location:../login.html");

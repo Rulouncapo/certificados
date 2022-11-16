@@ -28,7 +28,7 @@ function Verificador(){
             $_SESSION["usuario"] = $dni;
             $_SESSION["rol"] = $rol_db;
             if ($rol_db==1) {
-                echo header( "location:admin.html", 200 );
+                echo header( "location:admin.php", 200 );
             }else{
                 echo header( "location:index.php", 200 );
             }
